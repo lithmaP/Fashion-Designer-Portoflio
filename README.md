@@ -1,2 +1,2 @@
 # WD_website
-Website for the WD module
+A portfolio website for a fashion designer
