@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 4em;
+    margin-block-end: 9em;
+    margin-inline-start: 5px;
+    margin-inline-end: 0px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+html, body {
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+

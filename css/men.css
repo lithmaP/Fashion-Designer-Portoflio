@@ -1,0 +1,28 @@
+.row {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+   
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .main{
+    padding-top: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }

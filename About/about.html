@@ -1,0 +1,101 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css?ver=<?php echo rand(111,999)?">
+    <link rel="stylesheet" href="../css/about.css?ver=<?php echo rand(111,999)?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table {
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: left;
+            border-collapse: collapse;
+    
+        }
+        /*Grid layout  */
+        .item1 { grid-area: header; }
+        /* .item2 { grid-area: menu; } */
+        .item3 { grid-area: left; }
+        .item4 { grid-area: right; }
+        .item5 { grid-area: footer; }
+    
+        .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header'
+            'left left right right'
+            'footer footer footer footer';
+        grid-gap: 10px;
+        /* background-color: #2196F3;
+        padding: 10px; */
+        }
+    
+        .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        }
+        /*Grid layout  */
+    
+    </style>
+</head>
+
+
+
+</div>
+
+
+<div class="head" id="head">
+    <iframe src="../nav.html" frameborder="0" style="width: 100%; position: fixed;"></iframe>
+</div>
+
+
+<body>
+    
+    <div class="main">
+        <!-- Grid Layout -->
+        <div class = "grid-layout" >
+            <div class="grid-container">
+                <div class="item1">Liviana Spade</div>
+                <!-- <div class="item2">Menu</div> -->
+                <div class="item3">
+                    <img src="about_pic.jpg" alt="Liviana Spade" ALIGN=left style ="height : 80vh;">
+                </div>  
+                <div class="item4">
+                    <p style="font-size: 15px; text-align: justify;">
+                        Fashion Designer and personal stylist, Liviana Spade, provides wardrobe styling for clients including CEOs of Global 200 companies, start-up executives, artists, and TV celebrities.
+                        She brings 6 years of experience designing for major American fashion brands. She has styled global runway fashion shows, designed her own  menswear and womens collections, and was a Senior Designer at Armani.
+                        Liviana supports the concept of 'sustainable fashion' and works towards it by supporting businesses in the fashion industry that perform ethical and environmentally friendly practices.
+                        She styles for a new generation of men and women who want to make a positive impact in their buying decisions and behaviors. It's truly an investment in our future .
+                    </p>
+                </div>
+                <div class="item5">
+                    <p style="font-size: 17px;"> 
+                    "My mission is to empower men & women to look and feel their best, and to make positive and mindful buying decisions." <br>
+                    -Stephanie Stimmler
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<footer class="w3-container w3-padding-30 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge">
+
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+</footer>
+
+</html>
